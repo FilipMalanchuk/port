@@ -216,6 +216,7 @@ h1 {
 		align-items: center;
 	}
 	main h1 {
+		margin-top: 15px;
 		padding: 10px;
 		font-size: 22px;
 		margin: 0 0 10px;
@@ -227,6 +228,9 @@ h1 {
 	.text-top {
 		width: 100%;
 		text-align: center;
+	}
+	.text-top h2 {
+		margin-top: 15px;
 	}
 	.project img {
 		max-width: 320px;
@@ -257,7 +261,8 @@ h1 {
 		max-width: 100%;
 	}
 	.center-box > div:last-child {
-		width: 50%;
+		width: 45%;
+		margin-left: 5%;
 
 	}
 	.center-box a {
