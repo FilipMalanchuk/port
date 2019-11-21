@@ -1,0 +1,48 @@
+.header-wrapper {
+}
+header {
+	width: 980px;
+	margin: 0 auto;
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	height: 148px;
+}
+header h6 {
+	font-family: 'Justus-Italic';
+	text-transform: uppercase;
+	font-size: 14px;
+	letter-spacing: 0.025em;
+	width: 340px;
+}
+header .red {
+	color: #982e33;
+}
+
+@media (max-width: 1280px) {
+	header {
+		width: 686px;
+		height: 100px;
+	}
+	header h6 {
+		font-size: 9px;
+		width: 240px;
+	}
+	header img {
+		width: 60px;
+	}
+
+}
+@media (max-width: 1024px) {
+}
+@media (max-width: 768px) {
+	header {
+		width: 100%;
+		flex-direction: column;
+		height: 120px;
+	}
+	header h6 {
+		width: auto;
+	}
+
+}

@@ -1,0 +1,52 @@
+@font-face {
+	font-family:'Justus-Italic';
+	src:url(../Fonts/Justus-Italic.ttf);
+}
+@font-face {
+	font-family:'Justus-Oldstyle';
+	src:url(../Fonts/Justus-Oldstyle.ttf);
+}
+@font-face {
+	font-family:'Justus-Versalitas';
+	src:url(../Fonts/Justus-Versalitas.ttf);
+}
+@font-face {
+	font-family:'Lovelo-Black';
+	src:url(../Fonts/Lovelo-Black.otf);
+}
+* {
+	margin: 0;
+	padding: 0;
+}
+html {
+	height: 100%;
+}
+body {
+	background-image: url(../Images/body_bg.png);
+	font-family: 'Lovelo-Black';
+	height: 100%;
+}
+p {
+	font-size: 14px;
+	font-family: 'Justus-Oldstyle';
+	line-height: 24px;
+	color: #5c5b5f;
+}
+.wrapper {
+	background-image: url(../Images/port_03_03.png);
+	width: 1066px;
+	margin: 0 auto;
+	background-size: cover;
+}
+@media (max-width: 1280px) {
+	.wrapper {
+		background-image: url(none);
+		width: 100%;
+	}
+}
+
+@media (max-width: 1024px) {
+}
+
+@media (max-width: 768px) {
+}

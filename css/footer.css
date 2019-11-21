@@ -1,0 +1,154 @@
+footer {
+	height: 198px;
+	background: url(../Images/footer-line.png) repeat-x,
+	url(../Images/footer_logo.png) 0 90% no-repeat;
+	width: 880px;
+	margin: 10px auto;
+	padding: 37px 10px 0 0;
+}
+.footer-inside {
+	display: flex;
+	justify-content: space-between;
+	border-left: 4px solid #232227;
+}
+.text-footer {
+	width: 580px;
+	margin-left: 10px;
+}
+footer h4 {
+	text-transform: uppercase;
+	font-size: 14px;
+	color: #232227;
+}
+.text-footer span.purple {
+	font-family: 'Justus-Italic';
+	font-size: 16px;
+	color: #c45f5f;
+}
+.follow-footer {
+
+}
+footer nav {
+	display: flex; 
+}
+footer a {
+	background-color: #cbcbcb;
+	display: block;
+	width: 40px;
+	height: 40px;
+	margin: 4px;
+}
+footer p {
+	font-family: 'Justus-Versalitas';
+}
+#dri {
+	background-image: url(../Images/dribbble.png);
+	background-repeat: no-repeat;
+	background-position: 50% 50%;
+}
+#dri:hover {
+	background-color: #e396c2;
+}
+#face {
+	background-image: url(../Images/facebook.png);
+	background-repeat: no-repeat;
+	background-position: 50% 50%;
+}
+#face:hover {
+	background-color: #9f9bc9;
+}
+#twi {
+	background-image: url(../Images/twitter.png);
+	background-repeat: no-repeat;
+	background-position: 50% 50%;
+}
+#twi:hover {
+	background-color: #9bd3e1;
+}
+#google {
+	background-image: url(../Images/google-plus.png);
+	background-repeat: no-repeat;
+	background-position: 50% 50%;
+}
+#google:hover {
+	background-color: #ce8484;
+}
+/*bottom starts here*/
+.bottom {
+	height: 109px;
+	position: relative;
+	width: 980px;
+	margin: 0 auto;
+}
+.top {
+	width: 110px;
+	height: 58px;
+	position: absolute;
+	top: 0;
+	left: calc(50% - 55px);
+	background-image: url(../Images/top-btn.png);
+	text-align: center;
+	padding-top: 15px;
+	font-size: 12px;
+	color: #e3e3e3;
+	text-decoration: none;
+}
+.bottom p {
+	font-family: 'Justus-Italic';
+	color: #6e6862;
+	padding-left: 115px;
+	padding-top: 33px;
+}
+.bottom .copy {
+	font-family:'Lovelo-Black';
+}
+
+@media (min-width: 769px) and (max-width: 1024px) {
+	footer {
+		height: auto;
+		width: 100%;
+		padding: 37px 0 10px;
+		margin: 10px 0 0;
+		background: url(../Images/footer-line.png) repeat-x;
+	}
+	/*footer ends here*/
+	.bottom {
+		width: 100%;
+	}
+
+}
+
+@media (max-width: 768px) {
+	footer {
+		height: auto;
+		width: 100%;
+		padding: 10px 0 0;
+		margin: 0;
+		background: url(../Images/footer-line.png) repeat-x;
+	}
+	.footer-inside {
+		flex-direction: column;
+		border: none;
+	}
+	footer h4 {
+		text-align: center;
+	}
+	.text-footer {
+		width: 100%;
+		margin-bottom: 20px;
+	}
+	.text-footer p {
+		padding-right: 10px;
+	}
+	footer nav {
+		justify-content: center;
+	}
+	/*footer ends here*/
+	.bottom {
+		width: 100%;
+	}
+	.bottom p {
+		padding-left: 0;
+	}
+
+}
